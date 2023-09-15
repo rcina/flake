@@ -109,6 +109,8 @@
     rustfmt
     go
     coreutils-prefixed
+    util-linux
+
   ];
 
 
