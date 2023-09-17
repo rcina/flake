@@ -110,6 +110,7 @@
     go
     coreutils-prefixed
     util-linux
+    emacsPackages.pdf-tools
 
   ];
 
@@ -127,6 +128,16 @@
     #   org.gradle.console=verbose
     #   org.gradle.daemon.idletimeout=3600000
     # '';
+    ".emacs.d" = {
+	source = pkgs.fetchFromGitHub {
+		owner = "rcina";
+		repo = "dotemacs";
+		rev = "d085999";
+		hash = "sha256-oPTpOfvy+EWgeAhd6fUGyAB3finhTvbKO2MGuVnk0t8";
+
+	};
+	recursive = true;
+      };
   };
 
   # You can also manage environment variables but you will have to manually
