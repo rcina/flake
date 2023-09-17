@@ -14,13 +14,11 @@
   boot.extraModulePackages = [ ];
 
   fileSystems."/" =
-    { #device = "/dev/disk/by-uuid/5af05cc1-c848-4dd8-b358-43033ba988dc";
-      device = "/dev/disk/by-label/nixos";
-       fsType = "ext4";
+    { device = "/dev/disk/by-uuid/62fa8797-80c8-4a98-8199-066ac2c56b87";
+      fsType = "ext4";
     };
 
-  #boot.initrd.luks.devices."luks-d7ac53da-43ab-4b6a-ae80-43e8c866e159".device = "/dev/disk/by-uuid/d7ac53da-43ab-4b6a-ae80-43e8c866e159";
-   boot.initrd.luks.devices."cryptroot".device = "/dev/nvme0n1p5";
+  boot.initrd.luks.devices."luks-5cb61d80-91b2-4343-a602-650aabe7aa90".device = "/dev/disk/by-uuid/5cb61d80-91b2-4343-a602-650aabe7aa90";
 
   fileSystems."/boot" =
     { device = "/dev/disk/by-uuid/2020-1FEA";
