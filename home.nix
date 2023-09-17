@@ -110,8 +110,6 @@
     go
     coreutils-prefixed
     util-linux
-    emacsPackages.pdf-tools
-
   ];
 
 
