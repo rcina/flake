@@ -58,7 +58,6 @@
     mitscheme
     jdk17
     emacsPackages.pdf-tools
-    zotero
     nano
     ansible
     spotify
