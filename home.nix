@@ -86,7 +86,6 @@
     nodejs_20
     nodenv
     anki
-    sage
     pari
     gap-full
     thunderbird
