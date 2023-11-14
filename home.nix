@@ -76,7 +76,6 @@
     mutt
     libsForQt5.kcalc
     qalculate-qt
-    jupyter
     spyder
     ffmpeg_6-full
     yt-dlp
@@ -86,7 +85,6 @@
     jetbrains.idea-community
     nodejs_20
     nodenv
-    wxmaxima
     anki
     sage
     pari
