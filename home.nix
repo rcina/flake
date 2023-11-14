@@ -109,7 +109,6 @@
     go
     coreutils-prefixed
     util-linux
-    jupyter
   ];
 
 
