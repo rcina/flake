@@ -2,10 +2,10 @@
   description = "A very basic flake";
 
   inputs = {
-	nixpkgs.url = "github:nixos/nixpkgs/nixos-23.05";
+	nixpkgs.url = "github:nixos/nixpkgs/nixos-23.11";
 	home-manager = {
 		#url = github:nix-community/home-manager;
-		url = "https://github.com/nix-community/home-manager/archive/release-23.05.tar.gz";
+		url = "https://github.com/nix-community/home-manager/archive/release-23.11.tar.gz";
 		inputs.nixpkgs.follows = "nixpkgs";
 	};
   };
@@ -45,7 +45,7 @@
       					home = {
         					username = "rob";
         					homeDirectory = "/home/rob";
-        					stateVersion = "23.05";
+        					stateVersion = "23.11";
      					 };
     				}		
   			];
